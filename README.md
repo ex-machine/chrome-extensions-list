@@ -35,7 +35,7 @@ chrome-extensions-list "C:\Users\Me\AppData\Local\Google\Chrome\User Data\Defaul
 
 Write HTML file to custom location:
 ```
-chrome-extensions-list "F:\Backup\Chrome\User Data\Default" "C:\Users\Me\Desktop"
+chrome-extensions-list "F:\Backup\Chrome\User Data\Default" "C:\Users\Me\Desktop\My Chrome extensions.html"
 ```
 
 ### Standalone (Windows)
