@@ -1,0 +1,26 @@
+{
+  "name": "chrome-extensions-list",
+  "version": "1.0.0",
+  "description": "Exports a list of installed Chrome extensions to HTML file",
+  "main": "index.js",
+  "bin": {
+    "chrome-extensions-list": "chrome-extensions-list.js"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "pkg -t node8-win-x86,node8-win-x64 . --out-path release"
+  },
+  "author": "ex-machine",
+  "license": "MIT",
+  "dependencies": {
+    "fs.promises": "^0.1.2",
+    "html-entities": "^1.2.1",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.4"
+  }
+}
